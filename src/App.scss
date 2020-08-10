@@ -1,0 +1,247 @@
+// color
+$white: #fff;
+$yellow: #fef01b;
+$black: #0b1736;
+$blue: #2a5bd7;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  min-width: 438px;
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  header {
+    position: fixed;
+    background: $white;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    .inner-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      color: $black;
+      background: $white;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+  .banner {
+    top: 80px;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    background-image: url('./mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.jpg');
+    background-position: center center;
+  }
+  .input-container {
+    top: 630px;
+    position: relative;
+    height: 220px;
+    margin-bottom: 55px;
+    width: 100%;
+    background: #1d1f21;
+    display: flex;
+    align-items: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #1d1f21;
+      color: $white;
+      padding: 20px;
+      .input-row {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        label {
+          font-weight: 700;
+          letter-spacing: 1.5px;
+          font-size: 1.3rem;
+          width: 150px;
+        }
+        input {
+          // margin: 0 20px;
+          width: 600px;
+          height: 50px;
+          display: flex;
+        }
+        .file-upload {
+          position: relative;
+          overflow: hidden;
+          width: 250px;
+          height: 50px;
+          .file-upload-button {
+            position: absolute;
+            top: 0;
+            background: $blue;
+            border-style: solid;
+            width: 250px;
+            height: 50px;
+            color: $white;
+            border: none;
+            border-radius: 8px;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+          }
+          .file-input-hidden {
+            font-size: 45px;
+            position: absolute;
+            top: 0;
+            opacity: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+  .render-container {
+    // height: 100vh;
+    // position: absolute;
+    margin-top: 550px;
+    .messages-container {
+      background-color: #6884b3;
+      margin-top: 30px;
+    }
+    .message-container {
+      .date {
+        background-color: rgba(0, 0, 0, 0.15);
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+      .mine {
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+        .mine-col:first-child {
+          display: flex;
+          align-items: flex-end;
+          .mine-createdAt {
+            font-size: 0.785rem;
+            margin: 0 10px;
+          }
+        }
+        .mine-col:last-child {
+          background: $yellow;
+          border-radius: 13.5px;
+          padding: 6px 10px;
+          max-width: 40%;
+        }
+      }
+      .others {
+        display: flex;
+        padding: 15px;
+        .others-col {
+          margin: 0 5px;
+          .others-profile {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: green;
+          }
+        }
+        .others-col:last-child {
+          max-width: 40%;
+          display: flex;
+          flex-direction: column;
+          .others-name {
+            margin: 0 0 10px 0;
+          }
+          .others-wrapper {
+            display: flex;
+            align-items: flex-end;
+            .others-content {
+              background: $white;
+              border-radius: 13.5px;
+              padding: 6px 10px;
+              margin: 0 6px 0 0;
+            }
+            .others-createdAt {
+              font-size: 0.785rem;
+              min-width: 57.45px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes spin-Loader-3 {
+    from {
+      width: 1rem;
+      height: 1rem;
+      line-hight: 1rem;
+      opacity: 1;
+      transform: translate3d(0);
+    }
+    to {
+      width: 2rem;
+      height: 2rem;
+      line-hight: 2rem;
+      opacity: 0.1;
+      transform: translate3d(0.5, -1rem, 0);
+    }
+  }
+
+  .loading-modal-container {
+    display: none;
+  }
+  .loading-modal-container.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: $white;
+    width: 100%;
+    height: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.49);
+    position: absolute;
+    content: '';
+    span {
+      margin: 1rem 0.5rem 0.5rem;
+      background: #fad000;
+      border-radius: 50%;
+      animation: spin-Loader-3 0.6s infinite alternate;
+    }
+  }
+
+  footer {
+    position: relative;
+    background: #333;
+    width: 100%;
+    color: #6d6d72;
+    margin-top: 25px;
+    .inner-footer {
+      background: #333;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
