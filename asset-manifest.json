@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/github.io/restory/static/css/main.ffa4d927.chunk.css",
-    "main.js": "/github.io/restory/static/js/main.f286dabb.chunk.js",
-    "main.js.map": "/github.io/restory/static/js/main.f286dabb.chunk.js.map",
-    "runtime-main.js": "/github.io/restory/static/js/runtime-main.33760830.js",
-    "runtime-main.js.map": "/github.io/restory/static/js/runtime-main.33760830.js.map",
-    "static/js/2.355a2d86.chunk.js": "/github.io/restory/static/js/2.355a2d86.chunk.js",
-    "static/js/2.355a2d86.chunk.js.map": "/github.io/restory/static/js/2.355a2d86.chunk.js.map",
-    "index.html": "/github.io/restory/index.html",
-    "precache-manifest.ff695f7d298d60124053f6ab6fcc177e.js": "/github.io/restory/precache-manifest.ff695f7d298d60124053f6ab6fcc177e.js",
-    "service-worker.js": "/github.io/restory/service-worker.js",
-    "static/css/main.ffa4d927.chunk.css.map": "/github.io/restory/static/css/main.ffa4d927.chunk.css.map",
-    "static/js/2.355a2d86.chunk.js.LICENSE.txt": "/github.io/restory/static/js/2.355a2d86.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/github.io/restory/static/media/mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.2cd210fa.jpg"
+    "main.css": "/https//nirrvana/github.io/restory/static/css/main.b2b14632.chunk.css",
+    "main.js": "/https//nirrvana/github.io/restory/static/js/main.fec6fc36.chunk.js",
+    "main.js.map": "/https//nirrvana/github.io/restory/static/js/main.fec6fc36.chunk.js.map",
+    "runtime-main.js": "/https//nirrvana/github.io/restory/static/js/runtime-main.95988d60.js",
+    "runtime-main.js.map": "/https//nirrvana/github.io/restory/static/js/runtime-main.95988d60.js.map",
+    "static/js/2.355a2d86.chunk.js": "/https//nirrvana/github.io/restory/static/js/2.355a2d86.chunk.js",
+    "static/js/2.355a2d86.chunk.js.map": "/https//nirrvana/github.io/restory/static/js/2.355a2d86.chunk.js.map",
+    "index.html": "/https//nirrvana/github.io/restory/index.html",
+    "precache-manifest.f52f24d0df6e5913c01314d21603262c.js": "/https//nirrvana/github.io/restory/precache-manifest.f52f24d0df6e5913c01314d21603262c.js",
+    "service-worker.js": "/https//nirrvana/github.io/restory/service-worker.js",
+    "static/css/main.b2b14632.chunk.css.map": "/https//nirrvana/github.io/restory/static/css/main.b2b14632.chunk.css.map",
+    "static/js/2.355a2d86.chunk.js.LICENSE.txt": "/https//nirrvana/github.io/restory/static/js/2.355a2d86.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/https//nirrvana/github.io/restory/static/media/mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.2cd210fa.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.33760830.js",
+    "static/js/runtime-main.95988d60.js",
     "static/js/2.355a2d86.chunk.js",
-    "static/css/main.ffa4d927.chunk.css",
-    "static/js/main.f286dabb.chunk.js"
+    "static/css/main.b2b14632.chunk.css",
+    "static/js/main.fec6fc36.chunk.js"
   ]
 }
